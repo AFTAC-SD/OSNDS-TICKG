@@ -52,17 +52,6 @@ from itertools import chain
 # points will be written on the wire via MySeriesHelper.Meta.client.
 # print(time.gmtime())       
 x=np.arange(1,10,1)                                                     
-print(x)
-print(len(x))
-#this grabs every third starting at 0
-downsampled_ch1 = x[0::3]
-#this grabs every third starting at 1
-downsampled_ch2 = x[1::3]
-downsampled_ch3 = x[2::3]
-print(downsampled_ch1)
-print(downsampled_ch2)
-print(downsampled_ch3)
-
 #set channels, or samnples per ns here
 channels=3
 channels_range=range(channels)
